@@ -1,0 +1,287 @@
+<!DOCTYPE html> 
+<html lang="en">
+	<head>
+		<link href="css/style.css" rel="stylesheet">
+		<link href="https://use.typekit.net/iih5khf.css" rel="stylesheet">
+		<link rel="prefetch" href="img/bmloader.gif">
+		<link rel="prefetch" href="home.html">
+		<link rel="prefetch" href="reviews.html">
+		<link rel="prerender" href="home.html">
+		<link rel="prerender" href="reviews.html">
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0">
+		<script type="text/javascript" src="js/fade.js"></script>
+		<title>Seasons - Black Mirror Club</title>
+
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-66519423-11"></script>
+		<script>
+		  window.dataLayer = window.dataLayer || [];
+		  function gtag(){dataLayer.push(arguments);}
+		  gtag('js', new Date());
+
+		  gtag('config', 'UA-66519423-11');
+		</script>
+	</head>
+
+	<body onload="pageLoad()">
+		<img class="bmLoader" id="loader" src="img/bmloader.gif" alt="Loading...">
+		<div id="content">
+			<div id="header" ondragstart="return false;">
+				<a href="index.html"><img src="img/logo.png" class="logo"></a>
+			</div>
+			<div class="navBar" id="header">
+				<a href="home.html"><img src="img/nav-home.png" class="nav" alt="Home"></a>
+				<img src="img/nav-seasons-cracked.png" class="nav" alt="Seasons">
+				<a href="reviews.html"><img src="img/nav-reviews.png" class="nav" alt="Reviews"></a>
+			</div>
+
+			<div class="paragraph">
+				<div class="seasonTabs">
+					<button class="seasonTabLink" onclick="switchSeason(event, 'season1')" id="defaultTab">Season 1</button>
+					<button class="seasonTabLink" onclick="switchSeason(event, 'season2')">Season 2</button>
+					<button class="seasonTabLink" onclick="switchSeason(event, 'season3')">Season 3</button>
+					<button class="seasonTabLink" onclick="switchSeason(event, 'season4')">Season 4</button>
+					<button class="seasonTabLink" onclick="switchSeason(event, 'sp01')">Bandersnatch</button>
+				</div>
+
+				<div class="seasonTabContent" id="season1">
+					<div class="episode-s1-Container">
+						<div class="episode-s1-Image">
+							<img src="img/s01e01.jpg">
+						</div>
+						<div class="episode-s1-Info">
+							<h4>EPISODE 1</h4>
+							<h3>The National Anthem</h3>
+							<p>Prime Minister Michael Callow faces a shocking dilemma when Princess Susannah, a much-loved member of the Royal Family, is kidnapped.</p>
+						</div>
+					</div>
+					<div class="episode-s1-Container">
+						<div class="episode-s1-Image">
+							<img src="img/s01e02.jpg">
+						</div>
+						<div class="episode-s1-Info">
+							<h4>EPISODE 2</h4>
+							<h3>Fifteen Million Merits</h3>
+							<p>In a world where people's lives consist of riding exercise bikes to gain credits, Bing tries to help a woman get on to a singing competition show.</p>
+						</div>
+					</div>
+					<div class="episode-s1-Container">
+						<div class="episode-s1-Image">
+							<img src="img/s01e03.jpg">
+						</div>
+						<div class="episode-s1-Info">
+							<h4>EPISODE 3</h4>
+							<h3>The Entire History of You</h3>
+							<p>In the near future, everyone has access to a memory implant that records everything they do, see and hear - a sort of Sky Plus (Digital Video Recorder) for the brain. You need never forget a face again - but is that always a good thing?</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="seasonTabContent" id="season2">
+					<div class="episode-s1-Container">
+						<div class="episode-s1-Image">
+							<img src="img/s02e01.jpg">
+						</div>
+						<div class="episode-s1-Info">
+							<h4>EPISODE 1</h4>
+							<h3>Be Right Back</h3>
+							<p>After learning about a new service that lets people stay in touch with the deceased, a lonely, grieving Martha reconnects with her late lover.</p>
+						</div>
+					</div>
+					<div class="episode-s1-Container">
+						<div class="episode-s1-Image">
+							<img src="img/s02e02.jpg">
+						</div>
+						<div class="episode-s1-Info">
+							<h4>EPISODE 2</h4>
+							<h3>White Bear</h3>
+							<p>Victoria wakes up and cannot remember anything about her life. Everyone she encounters refuses to communicate with her, and they all seem to know something she doesn't. But what?</p>
+						</div>
+					</div>
+					<div class="episode-s1-Container">
+						<div class="episode-s1-Image">
+							<img src="img/s02e03.jpg">
+						</div>
+						<div class="episode-s1-Info">
+							<h4>EPISODE 3</h4>
+							<h3>The Waldo Moment</h3>
+							<p>A failed comedian who voices a popular cartoon bear named Waldo finds himself mixing in politics when TV executives want Waldo to run for office.</p>
+						</div>
+					</div>
+					<div class="episode-s1-Container">
+						<div class="episode-s1-Image">
+							<img src="img/s02e04.jpg">
+						</div>
+						<div class="episode-s1-Info">
+							<h4>CHRISTMAS SPECIAL</h4>
+							<h3>White Christmas</h3>
+							<p>Three interconnected tales of technology run amok during the Christmas season are told by two men at a remote outpost in a frozen wilderness.</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="seasonTabContent" id="season3">
+					<div class="episode-s1-Container">
+						<div class="episode-s1-Image">
+							<img src="img/s03e01.jpg">
+						</div>
+						<div class="episode-s1-Info">
+							<h4>EPISODE 1</h4>
+							<h3>Nosedive</h3>
+							<p>A woman desperate to boost her social media score hits the jackpot when she's invited to a swanky wedding, but the trip doesn't go as planned.</p>
+						</div>
+					</div>
+					<div class="episode-s1-Container">
+						<div class="episode-s1-Image">
+							<img src="img/s03e02.jpg">
+						</div>
+						<div class="episode-s1-Info">
+							<h4>EPISODE 2</h4>
+							<h3>Playtest</h3>
+							<p>An American traveler short on cash signs up to test a revolutionary new gaming system, but soon can't tell where the hot game ends and reality begins.</p>
+						</div>
+					</div>
+					<div class="episode-s1-Container">
+						<div class="episode-s1-Image">
+							<img src="img/s03e03.jpg">
+						</div>
+						<div class="episode-s1-Info">
+							<h4>EPISODE 3</h4>
+							<h3>Shut Up and Dance</h3>
+							<p>When withdrawn Kenny stumbles headlong into an online trap, he is quickly forced into an uneasy alliance with shifty Hector, both at the mercy of persons unknown.</p>
+						</div>
+					</div>
+					<div class="episode-s1-Container">
+						<div class="episode-s1-Image">
+							<img src="img/s03e04.jpg">
+						</div>
+						<div class="episode-s1-Info">
+							<h4>EPISODE 4</h4>
+							<h3>San Junipero</h3>
+							<p>When Yorkie and Kelly visit San Junipero, a fun-loving beach town full of surf, sun and sex, their lives are changed.</p>
+						</div>
+					</div>
+					<div class="episode-s1-Container">
+						<div class="episode-s1-Image">
+							<img src="img/s03e05.jpg">
+						</div>
+						<div class="episode-s1-Info">
+							<h4>EPISODE 5</h4>
+							<h3>Men Against Fire</h3>
+							<p>Future soldiers Stripe and Raiman must protect frightened villagers from an infestation of vicious feral mutants.</p>
+						</div>
+					</div>
+					<div class="episode-s1-Container">
+						<div class="episode-s1-Image">
+							<img src="img/s03e06.jpg">
+						</div>
+						<div class="episode-s1-Info">
+							<h4>EPISODE 6</h4>
+							<h3>Hated in the Nation</h3>
+							<p>In near-future London, police detective Karin Parke, and her tech-savvy sidekick Blue, investigate a string of mysterious deaths with a sinister link to social media.</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="seasonTabContent" id="season4">
+					<div class="episode-s4-Container-l">
+						<div class="episode-s4-Image">
+							<img src="img/s04e01.jpg">
+						</div>
+						<div class="episode-s4-Info">
+							<h4>EPISODE 1</h4>
+							<h3>USS Callister</h3>
+							<p>Capt. Robert Daly presides over his crew with wisdom and courage. But a new recruit will soon discover nothing on this spaceship is what it seems.</p>
+						</div>
+					</div>
+					<div class="episode-s4-Container-r">
+						<div class="episode-s4-Image">
+							<img src="img/s04e02.jpg">
+						</div>
+						<div class="episode-s4-Info">
+							<h4>EPISODE 2</h4>
+							<h3>Arkangel</h3>
+							<p>After nearly losing her daughter, a mother invests in a new technology that allows her to keep track of her.</p>
+						</div>
+					</div>
+					<div class="episode-s4-Container-l">
+						<div class="episode-s4-Image">
+							<img src="img/s04e03.jpg">
+						</div>
+						<div class="episode-s4-Info">
+							<h4>EPISODE 3</h4>
+							<h3>Crocodile</h3>
+							<p>A woman interviews various people using a device that allows her to access their memories.</p>
+						</div>
+					</div>
+					<div class="episode-s4-Container-r">
+						<div class="episode-s4-Image">
+							<img src="img/s04e04.jpg">
+						</div>
+						<div class="episode-s4-Info">
+							<h4>EPISODE 4</h4>
+							<h3>Hang the DJ</h3>
+							<p>Paired up by a dating program that puts an expiration date on all relationships, Frank and Amy soon begin to question the system's logic.</p>
+						</div>
+					</div>
+					<div class="episode-s4-Container-l">
+						<div class="episode-s4-Image">
+							<img src="img/s04e05.jpg">
+						</div>
+						<div class="episode-s4-Info">
+							<h4>EPISODE 5</h4>
+							<h3>Metalhead</h3>
+							<p>In the post-apocalyptic landscape of the Scottish Moors, a woman attempts to survive the land full of "dogs."</p>
+						</div>
+					</div>
+					<div class="episode-s4-Container-r">
+						<div class="episode-s4-Image">
+							<img src="img/s04e06.jpg">
+						</div>
+						<div class="episode-s4-Info">
+							<h4>EPISODE 6</h4>
+							<h3>Black Museum</h3>
+							<p>A woman enters the Black Museum, where the proprietor tells his stories relating to the artefacts.</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="seasonTabContent" id="sp01">
+					<div class="episode-sp-Container">
+						<div class="episode-sp-Image">
+							<img src="img/sp01.jpg">
+						</div>
+						<div class="episode-sp-Info">
+							<h4>SPECIAL INTERACTIVE FILM</h4>
+							<h3>Black Mirror: Bandersnatch</h3>
+							<p>In 1984, a young programmer begins to question reality as he works to adapt a fantasy novel into a video game.</p>
+						</div>
+					</div>
+				</div>
+
+				<div id="disqus_thread"></div>
+				<script>
+				var disqus_config = function () {
+				this.page.url = black-mirror-club.disqus.com;  // Replace PAGE_URL with your page's canonical URL variable
+				this.page.identifier = seaasons; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+				};
+				(function() { // DON'T EDIT BELOW THIS LINE
+				var d = document, s = d.createElement('script');
+				s.src = 'https://black-mirror-club.disqus.com/embed.js';
+				s.setAttribute('data-timestamp', +new Date());
+				(d.head || d.body).appendChild(s);
+				})();
+				</script>
+				<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+			</div>
+			<div class="footer footer-single">
+				<p>&copy; <script>document.write(new Date().getFullYear())</script> <a href="https://jasonluo.me" target="_blank">Jason Luo</a> - A New Media Project at <a href="https://www.saic.edu" target="_blank">SAIC</a></p>
+			</div>
+			<div class="footer footer-double">
+				<p>&copy; <script>document.write(new Date().getFullYear())</script> <a href="https://jasonluo.me" target="_blank">Jason Luo</a><br>A New Media Project at <a href="https://www.saic.edu" target="_blank">SAIC</a></p>
+			</div>
+		</div>
+		<script type="text/javascript" src="js/tabs.js"></script>
+	</body>
+</html>

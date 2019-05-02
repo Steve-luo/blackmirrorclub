@@ -1,0 +1,32 @@
+<!DOCTYPE html> 
+<html lang="en">
+	<head>
+		<link href="css/style.css" rel="stylesheet">
+		<link href="https://use.typekit.net/iih5khf.css" rel="stylesheet">
+		<link rel="prefetch" href="img/bmloader.gif">
+		<link rel="prefetch" href="home.html">
+		<link rel="prerender" href="home.html">
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0">
+		<title>Black Mirror Club</title>
+
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-66519423-11"></script>
+		<script>
+		  window.dataLayer = window.dataLayer || [];
+		  function gtag(){dataLayer.push(arguments);}
+		  gtag('js', new Date());
+
+		  gtag('config', 'UA-66519423-11');
+		</script>
+	</head>
+
+	<body>
+		<div class="backgroundVideo" id="playVid">
+			<video id="vid" oncontextmenu="return false;" poster="vid/vid-poster.png" preload="auto" playsinline onclick="this.play()" onended="jumpToHome()">
+				<source src="vid/intro.mp4" type="video/mp4">
+			</video>
+		</div>
+	<script type="text/javascript" src="js/video.js"></script>
+	</body>
+</html>

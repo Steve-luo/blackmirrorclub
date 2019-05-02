@@ -1,0 +1,75 @@
+<!DOCTYPE html> 
+<html lang="en">
+	<head>
+		<link href="css/style.css" rel="stylesheet">
+		<link href="https://use.typekit.net/iih5khf.css" rel="stylesheet">
+		<link rel="prefetch" href="img/bmloader.gif">
+		<link rel="prefetch" href="home.html">
+		<link rel="prefetch" href="seasons.html">
+		<link rel="prerender" href="home.html">
+		<link rel="prerender" href="seasons.html">
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0">
+		<script type="text/javascript" src="js/fade.js"></script>
+		<title>Reviews - Black Mirror Club</title>
+
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-66519423-11"></script>
+		<script>
+		  window.dataLayer = window.dataLayer || [];
+		  function gtag(){dataLayer.push(arguments);}
+		  gtag('js', new Date());
+
+		  gtag('config', 'UA-66519423-11');
+		</script>
+	</head>
+
+	<body onload="pageLoad()">
+		<img class="bmLoader" id="loader" src="img/bmloader.gif" alt="Loading...">
+		<div id="content">
+			<div id="header" ondragstart="return false;">
+				<a href="index.html"><img src="img/logo.png" class="logo"></a>
+			</div>
+			<div class="navBar" id="header">
+				<a href="home.html"><img src="img/nav-home.png" class="nav" alt="Home"></a>
+				<a href="seasons.html"><img src="img/nav-seasons.png" class="nav" alt="Seasons"></a>
+				<img src="img/nav-reviews-cracked.png" class="nav" alt="Reviews">
+			</div>
+
+			<div class="paragraph">
+				<div class="reviews">
+					<h3>The Decline of Audience Rating</h3>
+					<img src="img/imdb_rating.png" alt="IMDb Rating">
+					<p>Black Mirror is listed as the 30th top rated TV Shows on <a href="https://www.imdb.com/title/tt2085059" target="_blank">IMDb</a> now, with an impressive audience rating of 8.9 out of 10<sup>*</sup>. However, the audience ratings by season available on <a href="https://www.rottentomatoes.com/tv/black_mirror" target="_blank">Rotten Tomatoes</a> show a clear decline from 97% for the first season to 84% for the fourth season. Extremely high expectation from the audience probably is one of the reason why the ratings are in such trends. The release of Season 1 of Black Mirror might have set the bar too high for any of the following seasons to overcome that and win the audience's heart. </p>
+					<h5><sup>*</sup> Time of record: Feb 14 2019. </h5>
+				</div>
+				<div class="reviews">
+					<h3>The Myterious Rise</h3>
+					<img src="img/imdb_rating_trend.png" alt="The Rise of IMDb Rating">
+					<p>The image above shows the data presented on the <a href="https://yathish1618.github.io/imdb-rating-history-graph/">IMDb User Rating History Graph</a> website designed by <a href="https://github.com/yathish1618" target="_blank">yathish1618</a><sup>*</sup>, a clear rising trend in the audience rating of Black Mirror is shown. From 8.5 to 8.9, the audience rating increased 4.5% in almost 4 years. This trend is the exact opposite of which shown on <a href="https://www.rottentomatoes.com/tv/black_mirror" target="_blank">Rotten Tomatoes</a>. Surprise? Mysterious? Who knows. </p>
+					<h5><sup>*</sup> This website gathers data using the archived IMDb pages on the <a href="https://web.archive.org" target="_blank">WaybackMachine</a> developed by <a href="https://archive.org" target="_blank">archive.org</a> to generate a graph that shows the change in audience ratings. </h5>
+				</div>
+				<div id="disqus_thread"></div>
+				<script>
+				var disqus_config = function () {
+				this.page.url = black-mirror-club.disqus.com;  // Replace PAGE_URL with your page's canonical URL variable
+				this.page.identifier = reviews; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+				};
+				(function() { // DON'T EDIT BELOW THIS LINE
+				var d = document, s = d.createElement('script');
+				s.src = 'https://black-mirror-club.disqus.com/embed.js';
+				s.setAttribute('data-timestamp', +new Date());
+				(d.head || d.body).appendChild(s);
+				})();
+				</script>
+				<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+			</div>
+			<div class="footer footer-single">
+				<p>&copy; <script>document.write(new Date().getFullYear())</script> <a href="https://jasonluo.me" target="_blank">Jason Luo</a> - A New Media Project at <a href="https://www.saic.edu" target="_blank">SAIC</a></p>
+			</div>
+			<div class="footer footer-double">
+				<p>&copy; <script>document.write(new Date().getFullYear())</script> <a href="https://jasonluo.me" target="_blank">Jason Luo</a><br>A New Media Project at <a href="https://www.saic.edu" target="_blank">SAIC</a></p>
+			</div>
+		</div>
+	</body>
+</html>
